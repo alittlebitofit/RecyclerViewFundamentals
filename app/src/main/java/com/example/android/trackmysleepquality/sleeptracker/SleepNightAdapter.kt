@@ -56,18 +56,18 @@ class SleepNightAdapter : ListAdapter<SleepNight, SleepNightAdapter.SleepNightVi
         }
     }
 
-    var data = listOf<SleepNight>()
-        set(value) {
-            field = value
-            notifyDataSetChanged()
-//            notifyItemChanged(value[])
-        }
+//    var data = listOf<SleepNight>()
+//        set(value) {
+//            field = value
+//            notifyDataSetChanged()
+////            notifyItemChanged(value[])
+//        }
 
-    override fun getItemCount(): Int = data.size
+//    override fun getItemCount(): Int = data.size
 
     override fun onBindViewHolder(holder: SleepNightViewHolder, position: Int) {
-        val item = data[position]
-//        val item = getItem(position)
+//        val item = data[position]
+        val item = getItem(position)
         holder.bind(item)
     }
 
