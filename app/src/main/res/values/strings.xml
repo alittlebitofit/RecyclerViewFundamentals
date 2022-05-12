@@ -20,11 +20,14 @@
     <string name="app_name">Track My Sleep Quality</string>
     <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
     <string name="sleep_quality_fragment">SleepQualityFragment</string>
+    <string name="sleep_detail_fragment">SleepDetailFragment</string>
 
     <!-- Button labels -->
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="clear">Clear</string>
+    <string name="close">Close</string>
+
 
     <!-- contentDescription strings for quality icons -->
     <string name="quality_0">Sleep Quality 0</string>
